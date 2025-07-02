@@ -110,12 +110,8 @@ const msg = `*👋 Hello ${pushname}*
 
 ${config.FOOTER}`
                 
-return await conn.sendMessage(from, { image: { url: config.LOGO } , caption: msg } , { quoted: mek })
-await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
-} catch (e) {
-reply('*error!!*')
-            console.log(e)
-            }
+
+} 
     })       
 
 
