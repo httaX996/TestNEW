@@ -37,13 +37,15 @@ const msg = `*╭─     ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ*
 *│🕵️‍♂️ 𝘙𝘶𝘯 𝘛𝘪𝘮𝘦 -* 58 seconds 
 *│🕵️‍♂️ 𝘙𝘢𝘮 𝘜𝘴𝘦 -* 49.44MB / 63276MB
 *╰──────────●●►*
-𓆩 𝙺𝙰𝚅𝙸𝚈𝙰-𝙼𝙳 𓆪  
+𓆩 𝙳𝙸𝙽𝚄𝚆𝙷-𝙵𝚁𝙴𝙴_𝚇-𝙼𝙳 𓆪  
 Simple & Powerful WhatsApp Bot  
-Made By: 𝙆𝘼𝙑𝙄𝙔𝘼-𝙈𝘿
+Made By: 𝘿𝙄 𝙉𝙐 𝙒𝙃 - 𝙈𝘿
 
 ━━━━━━━━━━━━━━  
 OWNER:  
-wa.me//+94705310919?text=F-BOT  
+wa.me//+94728899640?text=F-BOT  
+
+මෙම බොට් එක 𝙁𝙍𝙀𝙀ව හදාගන්න ඕනෙ නම් උඩ number එකට msg එකක් දාන්න!
 
 ━━━━━━━━━━━━━━  
 
@@ -65,12 +67,25 @@ Extra Features:
 
 ━━━━━━━━━━━━━━  
 
-*Github Repo:* https://github.com/kavindu-13/BOT-PAIR
+JOIN OUR WHATSAPP CHANNELS:
 
- *㋛ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝙺𝙰𝚅𝙸𝙽𝙳𝚄  〽️Ｄ*
+ᴛᴇᴄʜ ᴄʜᴀɴɴᴇʟ:  
+https://whatsapp.com/channel/0029Vb5XXIfDp2Q3A5zeZb1d
+
+ᴍᴜsɪᴄ ᴄʜᴀɴɴᴇʟ:  
+https://whatsapp.com/channel/0029Vb3mqn5H5JLuJO3s3Z1J
+
+sᴛᴀᴛᴜs ᴠɪᴅᴇᴏ ᴄʜᴀɴɴᴇʟ:  
+https://whatsapp.com/channel/0029VaxVCPi96H4VOKai4S3s
+
+━━━━━━━━━━━━━━  
+
+╭─━━━❰ *THANK YOU!* ❱━━━─╮
+│ ⛦ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪɴᴜᴡʜ ᴍᴅ* ⛦
+╰───────────────────────╯`
                 
 return await conn.sendMessage(from, { image: { url: config.LOGO } , caption: msg } , { quoted: mek })
-await conn.sendMessage(from, { react: { text: `👋`, key: mek.key }}) 
+await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
 } catch (e) {
 reply('*error!!*')
             console.log(e)
@@ -98,8 +113,9 @@ const msg = `*👋 Hello ${pushname}*
 *╰──────────●●►*
 
 *╭──────────●●►*
-*│ REPO:* https://github.com/kavindu-12/kaviya-md
-
+*│ REPO:* https://github.com/DarkSahi75/CYBER-VENOM-SONG-DL
+*│ WHATSAPP CHANNEL:* https://whatsapp.com/channel/0029Vb8WOgSBPzjfG09WEn10
+*│ YOUTUBE:* https://www.youtube.com/@Sahas_Tech
 *╰──────────●●►*
 
 *╭──────────●●►*
@@ -110,8 +126,12 @@ const msg = `*👋 Hello ${pushname}*
 
 ${config.FOOTER}`
                 
-
-} 
+return await conn.sendMessage(from, { image: { url: config.LOGO } , caption: msg } , { quoted: mek })
+await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
+} catch (e) {
+reply('*error!!*')
+            console.log(e)
+            }
     })       
 
 
